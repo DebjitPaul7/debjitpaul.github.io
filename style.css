@@ -11,9 +11,20 @@ body {
 body.home-page .hero {
   position: relative;
   height: 100vh;
-  background: url('images/BackGround_Image.png') no-repeat center center/cover;
+  background-size: cover;
+  background-position: center;
+  animation: slideShow 24s infinite;
+  animation-timing-function: ease-in-out;
 }
 
+@keyframes slideShow {
+  0%   { background-image: url('images/BackGround_Image.png'); }
+  33%  { background-image: url('images/BackGround_Image2.jpg'); }
+  66%  { background-image: url('images/BackGround_Image3.png'); }
+  100% { background-image: url('images/BackGround_Image.png'); }
+}
+
+/* Overlay text */
 body.home-page .overlay {
   position: absolute;
   top: 0;
@@ -208,4 +219,8 @@ body.contact-page .main-header nav ul li a {
 
 .pub-item a:hover {
   text-decoration: underline;
+}
+
+.hero {
+  transition: background-image 2s ease-in-out;
 }

@@ -1,78 +1,81 @@
 body {
-  font-family: 'Segoe UI', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   margin: 0;
   padding: 0;
-  background-color: #f9fbfb;
   color: #333;
+  background-color: #fafafa;
 }
-
-header {
-  background-color: #008080;
+header.hero {
+  position: relative;
+  background: url('images/header.jpg') center/cover no-repeat;
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.overlay {
+  background: rgba(0,0,0,0.4);
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   color: white;
   text-align: center;
-  padding: 2rem 0 1rem 0;
 }
-
-header h1 {
+.overlay h1 {
+  font-size: 3em;
   margin: 0;
-  font-size: 2.5rem;
 }
-
-header p {
-  margin: 0.3rem 0 1rem 0;
-  font-size: 1.1rem;
+.overlay h3 {
+  font-weight: 300;
+  color: #b2ebf2;
 }
-
+nav {
+  background: #00796b;
+  text-align: center;
+}
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: inline-flex;
+}
+nav li {
+  margin: 0;
+}
 nav a {
+  display: block;
   color: white;
+  padding: 15px 25px;
   text-decoration: none;
-  margin: 0 1rem;
   font-weight: bold;
 }
-
-nav a:hover {
-  text-decoration: underline;
+nav a:hover, nav a.active {
+  background: #004d40;
 }
-
-.hero {
-  text-align: center;
-  padding: 5rem 2rem;
-  background-color: #e0f2f2;
+section.about {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 50px;
+  gap: 40px;
 }
-
-.hero h2 {
-  font-size: 2rem;
-  color: #004d4d;
-}
-
-.btn {
-  display: inline-block;
-  background-color: #008080;
-  color: white;
-  padding: 0.8rem 1.5rem;
-  border-radius: 5px;
-  text-decoration: none;
-  margin-top: 1.5rem;
-  font-weight: bold;
-}
-
-.btn:hover {
-  background-color: #006666;
-}
-
-footer {
-  text-align: center;
-  padding: 1rem 0;
-  background-color: #008080;
-  color: white;
-  margin-top: 3rem;
-}
-
 .profile-pic {
-  width: 160px;
-  height: 160px;
+  width: 200px;
+  height: 200px;
   border-radius: 50%;
   object-fit: cover;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
-  border: 3px solid #008080; /* teal accent */
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+}
+.about-text {
+  max-width: 600px;
+}
+footer {
+  background: #004d40;
+  color: white;
+  text-align: center;
+  padding: 15px 0;
+  font-size: 0.9em;
 }

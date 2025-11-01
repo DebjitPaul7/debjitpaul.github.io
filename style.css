@@ -200,3 +200,30 @@ body.contact-page .main-header nav ul li a {
   font-weight: 700;
   margin: 6px 0;
 }
+
+.pub-list {
+  padding-left: 60px;
+  margin: 40px 10%;
+}
+
+.pub-item {
+  font-size: 1.05em;
+  line-height: 1.8;
+  color: #002f2f;
+  margin-bottom: 25px;
+}
+
+.paper-title {
+  color: #00796b;
+  font-weight: 700;
+  white-space: normal; /* allows proper line wrapping */
+}
+
+.pub-item a {
+  color: #00796b;
+  text-decoration: none;
+}
+
+.pub-item a:hover {
+  text-decoration: underline;
+}

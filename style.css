@@ -158,10 +158,9 @@ body.contact-page .main-header nav ul li a {
   background: none;
 }
 
-/* ---------- PUBLICATIONS PAGE STYLING ---------- */
 /* ---------- PUBLICATIONS PAGE ---------- */
 .page-content {
-  max-width: 900px;
+  max-width: 1000px;
   margin: 100px auto;
   padding: 0 20px;
   color: #003333;
@@ -174,24 +173,33 @@ body.contact-page .main-header nav ul li a {
   margin-bottom: 40px;
 }
 
+/* Publication List */
 .pub-list {
-  display: flex;
-  flex-direction: column;
-  gap: 30px;
+  list-style-position: outside;
+  padding-left: 60px;
+  display: block;
 }
 
-.pub-item h3 {
-  margin: 0;
-  font-size: 1.15em;
-  color: #002f2f;
-}
-
-.pub-item p {
-  margin: 8px 0 0;
+.pub-item {
+  font-size: 1.05em;
   line-height: 1.6;
-  font-size: 0.98em;
+  color: #002f2f;
+  margin-bottom: 18px;
+  text-align: left;
 }
 
+.pub-item::marker {
+  font-weight: bold;
+  color: #004d4d;
+}
+
+/* Highlight the paper title */
+.paper-title {
+  color: #00796b; /* teal title */
+  font-weight: 600;
+}
+
+/* DOI link */
 .pub-item a {
   color: #00796b;
   text-decoration: none;
@@ -201,3 +209,4 @@ body.contact-page .main-header nav ul li a {
 .pub-item a:hover {
   text-decoration: underline;
 }
+

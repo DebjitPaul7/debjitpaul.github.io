@@ -1,81 +1,69 @@
 body {
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Segoe UI', sans-serif;
   margin: 0;
   padding: 0;
-  background-color: #f7fafa;
+  background-color: #f9fbfb;
   color: #333;
 }
 
 header {
-  background-color: #00796b;
+  background-color: #008080;
   color: white;
   text-align: center;
-  padding: 2rem 1rem;
+  padding: 2rem 0 1rem 0;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2.5rem;
+}
+
+header p {
+  margin: 0.3rem 0 1rem 0;
+  font-size: 1.1rem;
 }
 
 nav a {
   color: white;
-  margin: 0 10px;
   text-decoration: none;
-  padding: 6px 12px;
-  border-radius: 6px;
-  transition: background 0.3s;
+  margin: 0 1rem;
+  font-weight: bold;
 }
 
-nav a:hover, nav a.active {
-  background-color: #004d40;
+nav a:hover {
+  text-decoration: underline;
 }
 
-.about {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 3rem;
-  gap: 2rem;
+.hero {
+  text-align: center;
+  padding: 5rem 2rem;
+  background-color: #e0f2f2;
 }
 
-.about img {
-  width: 280px;
-  border-radius: 50%;
-  border: 5px solid #00796b;
-}
-
-.about-text {
-  max-width: 600px;
+.hero h2 {
+  font-size: 2rem;
+  color: #004d4d;
 }
 
 .btn {
   display: inline-block;
-  margin-top: 1rem;
-  background-color: #00796b;
+  background-color: #008080;
   color: white;
-  padding: 10px 20px;
-  border-radius: 8px;
+  padding: 0.8rem 1.5rem;
+  border-radius: 5px;
   text-decoration: none;
-  transition: background 0.3s;
+  margin-top: 1.5rem;
+  font-weight: bold;
 }
 
 .btn:hover {
-  background-color: #004d40;
-}
-
-.gallery {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  gap: 1rem;
-  padding: 2rem;
-}
-
-.gallery img {
-  width: 100%;
-  border-radius: 10px;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  background-color: #006666;
 }
 
 footer {
   text-align: center;
-  background-color: #004d40;
+  padding: 1rem 0;
+  background-color: #008080;
   color: white;
-  padding: 1rem;
-  margin-top: 2rem;
+  margin-top: 3rem;
 }

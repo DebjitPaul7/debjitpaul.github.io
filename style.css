@@ -110,3 +110,39 @@ footer {
   color: white;
   margin-top: 40px;
 }
+
+/* ---------- FORCE NAVIGATION TABS TO BLACK ---------- */
+.main-header {
+  position: fixed;
+  top: 25px;
+  right: 60px;
+  background: none;
+  box-shadow: none;
+  z-index: 1000;
+}
+
+/* navigation layout */
+.main-header nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 35px;
+}
+
+/* navigation text — always black */
+.main-header nav ul li a {
+  color: #000000 !important;        /* force black text */
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 1.1em;
+  transition: none;
+}
+
+/* no color change or underline on hover or active */
+.main-header nav ul li a:hover,
+.main-header nav ul li a.active {
+  color: #000000 !important;
+  border: none;
+  background: none;
+}

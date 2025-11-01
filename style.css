@@ -227,3 +227,36 @@ body.contact-page .main-header nav ul li a {
 .pub-item a:hover {
   text-decoration: underline;
 }
+
+.pub-list {
+  padding-left: 60px;
+  margin: 40px 10%;
+}
+
+.pub-item {
+  font-size: 1.05em;
+  line-height: 1.5;
+  color: #002f2f;
+  margin-bottom: 12px;
+  text-align: left;
+  white-space: normal; /* allows wrapping only when screen is narrow */
+}
+
+.pub-item::marker {
+  font-weight: bold;
+  color: #004d4d;
+}
+
+.paper-title {
+  color: #00796b; /* teal for title */
+  font-weight: 600;
+}
+
+.pub-item a {
+  color: #00796b;
+  text-decoration: none;
+}
+
+.pub-item a:hover {
+  text-decoration: underline;
+}

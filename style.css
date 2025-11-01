@@ -111,7 +111,9 @@ footer {
   margin-top: 40px;
 }
 
-/* ---------- FORCE NAVIGATION TABS TO BLACK ---------- */
+/* ---------- NAVIGATION COLOR BASED ON PAGE ---------- */
+
+/* Base navigation style */
 .main-header {
   position: fixed;
   top: 25px;
@@ -121,7 +123,6 @@ footer {
   z-index: 1000;
 }
 
-/* navigation layout */
 .main-header nav ul {
   list-style: none;
   margin: 0;
@@ -130,19 +131,29 @@ footer {
   gap: 35px;
 }
 
-/* navigation text — always black */
 .main-header nav ul li a {
-  color: #000000 !important;        /* force black text */
   text-decoration: none;
   font-weight: 600;
   font-size: 1.1em;
   transition: none;
 }
 
-/* no color change or underline on hover or active */
+/* White nav links for Home page */
+body.home-page .main-header nav ul li a {
+  color: white !important;
+}
+
+/* Black nav links for all other pages */
+body.research-page .main-header nav ul li a,
+body.publications-page .main-header nav ul li a,
+body.gallery-page .main-header nav ul li a,
+body.contact-page .main-header nav ul li a {
+  color: black !important;
+}
+
+/* Prevent hover or active color changes */
 .main-header nav ul li a:hover,
 .main-header nav ul li a.active {
-  color: #000000 !important;
   border: none;
   background: none;
 }

@@ -160,29 +160,17 @@ body.contact-page .main-header nav ul li a {
 
 /* ---------- PUBLICATIONS PAGE STYLING ---------- */
 .pub-list {
-  list-style-position: outside;
-  margin: 40px auto;
-  padding-left: 80px; /* shifts numbering slightly right for alignment */
-  max-width: 1200px;
+  padding-left: 60px;
+  margin: 40px 10%;
 }
 
 .pub-item {
   font-size: 1.05em;
+  line-height: 1.5;
   color: #002f2f;
-  margin-bottom: 15px;
+  margin-bottom: 12px;
   text-align: left;
-  line-height: 1.6;
-  white-space: nowrap;        /* keep in one line on large screens */
-  overflow-x: auto;           /* allows horizontal scroll if it’s too long */
-  display: block;
-}
-
-.pub-item::-webkit-scrollbar {
-  height: 6px;
-}
-.pub-item::-webkit-scrollbar-thumb {
-  background-color: #cccccc;
-  border-radius: 3px;
+  white-space: normal; /* allows wrapping only when screen is narrow */
 }
 
 .pub-item::marker {

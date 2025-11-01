@@ -159,33 +159,43 @@ body.contact-page .main-header nav ul li a {
 }
 
 /* ---------- PUBLICATIONS PAGE STYLING ---------- */
-.pub-list {
-  padding-left: 60px;
-  margin: 40px 10%;
+/* ---------- PUBLICATIONS PAGE ---------- */
+.page-content {
+  max-width: 900px;
+  margin: 100px auto;
+  padding: 0 20px;
+  color: #003333;
 }
 
-.pub-item {
-  font-size: 1.05em;
-  line-height: 1.5;
-  color: #002f2f;
-  margin-bottom: 12px;
-  text-align: left;
-  white-space: normal; /* allows wrapping only when screen is narrow */
-}
-
-.pub-item::marker {
-  font-weight: bold;
+.page-content h1 {
+  text-align: center;
+  font-size: 2em;
   color: #004d4d;
+  margin-bottom: 40px;
 }
 
-.paper-title {
-  color: #00796b; /* teal for title */
-  font-weight: 600;
+.pub-list {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.pub-item h3 {
+  margin: 0;
+  font-size: 1.15em;
+  color: #002f2f;
+}
+
+.pub-item p {
+  margin: 8px 0 0;
+  line-height: 1.6;
+  font-size: 0.98em;
 }
 
 .pub-item a {
   color: #00796b;
   text-decoration: none;
+  font-weight: 500;
 }
 
 .pub-item a:hover {

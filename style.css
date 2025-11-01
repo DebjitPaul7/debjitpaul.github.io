@@ -67,7 +67,11 @@ nav ul li a {
   font-size: 1.05em;
 }
 
-
+nav ul li a:hover,
+nav ul li a.active {
+  color: black;
+  border: none;
+}
 
 /* ---------- ABOUT SECTION ---------- */
 .about {

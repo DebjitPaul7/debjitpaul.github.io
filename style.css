@@ -46,11 +46,10 @@ body.home-page .overlay h3 {
 .main-header {
   position: fixed;
   top: 0;
-  right: 0;
   width: 100%;
   padding: 25px 60px;
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-end;
   align-items: center;
   box-sizing: border-box;
   z-index: 20;

@@ -10,7 +10,7 @@ body {
 /* ---------- HERO SECTION (HOME ONLY) ---------- */
 body.home-page .hero {
   position: relative;
-  height: 40vh;
+  height: 50vh;
   background: url('images/BackGround_Image.png') no-repeat center center/cover;
 }
 

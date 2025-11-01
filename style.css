@@ -159,87 +159,30 @@ body.contact-page .main-header nav ul li a {
 }
 
 /* ---------- PUBLICATIONS PAGE STYLING ---------- */
-.page-content {
-  max-width: 900px;
-  margin: 100px auto;
-  padding: 0 20px;
-  color: #003333;
-}
-
-.page-content h1 {
-  text-align: center;
-  font-size: 2em;
-  color: #004d4d;
-  margin-bottom: 40px;
-}
-
 .pub-list {
-  display: flex;
-  flex-direction: column;
-  gap: 25px;
-}
-
-.pub-item p {
-  font-size: 1.05em;
-  line-height: 1.6;
-  color: #002f2f;
-}
-
-.pub-item a {
-  color: #00796b;
-  text-decoration: none;
-}
-
-.pub-item a:hover {
-  text-decoration: underline;
-}
-
-.paper-title {
-  
-  color: #008080; /* classy teal */
-  font-weight: 700;
-  margin: 6px 0;
-}
-
-.pub-list {
-  padding-left: 60px;
-  margin: 40px 10%;
+  list-style-position: outside;
+  margin: 40px auto;
+  padding-left: 80px; /* shifts numbering slightly right for alignment */
+  max-width: 1200px;
 }
 
 .pub-item {
   font-size: 1.05em;
-  line-height: 1.8;
   color: #002f2f;
-  margin-bottom: 25px;
-}
-
-.paper-title {
-  color: #00796b;
-  font-weight: 700;
-  white-space: normal; /* allows proper line wrapping */
-}
-
-.pub-item a {
-  color: #00796b;
-  text-decoration: none;
-}
-
-.pub-item a:hover {
-  text-decoration: underline;
-}
-
-.pub-list {
-  padding-left: 60px;
-  margin: 40px 10%;
-}
-
-.pub-item {
-  font-size: 1.05em;
-  line-height: 1.5;
-  color: #002f2f;
-  margin-bottom: 12px;
+  margin-bottom: 15px;
   text-align: left;
-  white-space: normal; /* allows wrapping only when screen is narrow */
+  line-height: 1.6;
+  white-space: nowrap;        /* keep in one line on large screens */
+  overflow-x: auto;           /* allows horizontal scroll if it’s too long */
+  display: block;
+}
+
+.pub-item::-webkit-scrollbar {
+  height: 6px;
+}
+.pub-item::-webkit-scrollbar-thumb {
+  background-color: #cccccc;
+  border-radius: 3px;
 }
 
 .pub-item::marker {

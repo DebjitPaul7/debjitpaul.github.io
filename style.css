@@ -42,24 +42,34 @@ body.home-page .overlay h3 {
 }
 
 /* ---------- NAVBAR ---------- */
-nav {
-  background-color: #004d4d;
-  padding: 10px 0;
-  text-align: center;
-  position: sticky;
+/* ---------- HEADER NAVBAR (TOP RIGHT) ---------- */
+.main-header {
+  position: absolute;
   top: 0;
-  z-index: 10;
+  left: 0;
+  width: 100%;
+  padding: 25px 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+  z-index: 20;
+}
+
+.logo {
+  color: white;
+  font-size: 1.4em;
+  font-weight: 600;
+  letter-spacing: 1px;
+  margin: 0;
 }
 
 nav ul {
   list-style: none;
   margin: 0;
   padding: 0;
-}
-
-nav ul li {
-  display: inline-block;
-  margin: 0 15px;
+  display: flex;
+  gap: 25px;
 }
 
 nav ul li a {
@@ -73,6 +83,7 @@ nav ul li a:hover,
 nav ul li a.active {
   color: #b2dfdb;
 }
+
 
 /* ---------- ABOUT SECTION ---------- */
 .about {

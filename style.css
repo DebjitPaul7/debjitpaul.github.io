@@ -44,24 +44,12 @@ body.home-page .overlay h3 {
 /* ---------- NAVBAR ---------- */
 /* ---------- HEADER NAVBAR (TOP RIGHT) ---------- */
 .main-header {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  padding: 25px 60px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  box-sizing: border-box;
-  z-index: 20;
-}
-
-.logo {
-  color: white;
-  font-size: 1.4em;
-  font-weight: 600;
-  letter-spacing: 1px;
-  margin: 0;
+  position: fixed;
+  top: 25px;
+  right: 60px;
+  background: none;
+  box-shadow: none;
+  z-index: 1000;
 }
 
 nav ul {
@@ -69,20 +57,16 @@ nav ul {
   margin: 0;
   padding: 0;
   display: flex;
-  gap: 25px;
+  gap: 30px;
 }
 
 nav ul li a {
   text-decoration: none;
   color: white;
   font-weight: 500;
-  transition: 0.3s;
+  font-size: 1.05em;
 }
 
-nav ul li a:hover,
-nav ul li a.active {
-  color: #b2dfdb;
-}
 
 
 /* ---------- ABOUT SECTION ---------- */

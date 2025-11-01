@@ -193,3 +193,10 @@ body.contact-page .main-header nav ul li a {
 .pub-item a:hover {
   text-decoration: underline;
 }
+
+.paper-title {
+  display: block;
+  color: #008080; /* classy teal */
+  font-weight: 700;
+  margin: 6px 0;
+}

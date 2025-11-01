@@ -157,3 +157,39 @@ body.contact-page .main-header nav ul li a {
   border: none;
   background: none;
 }
+
+/* ---------- PUBLICATIONS PAGE STYLING ---------- */
+.page-content {
+  max-width: 900px;
+  margin: 100px auto;
+  padding: 0 20px;
+  color: #003333;
+}
+
+.page-content h1 {
+  text-align: center;
+  font-size: 2em;
+  color: #004d4d;
+  margin-bottom: 40px;
+}
+
+.pub-list {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.pub-item p {
+  font-size: 1.05em;
+  line-height: 1.6;
+  color: #002f2f;
+}
+
+.pub-item a {
+  color: #00796b;
+  text-decoration: none;
+}
+
+.pub-item a:hover {
+  text-decoration: underline;
+}

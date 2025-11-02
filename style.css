@@ -19,8 +19,10 @@ body.home-page .hero {
 
 @keyframes slideShow {
   0%   { background-image: url('images/BackGround_Image.png'); }
-  33%  { background-image: url('images/BackGround_Image2.jpg'); }
-  66%  { background-image: url('images/BackGround_Image3.png'); }
+  20%  { background-image: url('images/BackGround_Image2.jpg'); }
+  40%  { background-image: url('images/BackGround_Image3.png'); }
+  60%  { background-image: url('images/BackGround_Image4.jpg'); }
+  80%  { background-image: url('images/BackGround_Image5.jpg'); }
   100% { background-image: url('images/BackGround_Image.png'); }
 }
 

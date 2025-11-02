@@ -21,8 +21,8 @@ body.home-page .hero {
   0%   { background-image: url('images/BackGround_Image.png'); }
   20%  { background-image: url('images/BackGround_Image2.jpg'); }
   40%  { background-image: url('images/BackGround_Image3.png'); }
-  60%  { background-image: url('images/BackGround_Image4.jpg'); }
-  80%  { background-image: url('images/BackGround_Image5.jpg'); }
+  60%  { background-image: url('images/BackGround_Image4.jpeg'); }
+  80%  { background-image: url('images/BackGround_Image5.jpeg'); }
   100% { background-image: url('images/BackGround_Image.png'); }
 }
 

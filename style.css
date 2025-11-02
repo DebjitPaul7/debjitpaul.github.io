@@ -266,3 +266,53 @@ body.contact-page .main-header nav ul li a {
   transform: scale(1.1);
   box-shadow: 0 3px 10px rgba(0, 0, 0, 0.25);
 }
+
+/* ---------- GALLERY PAGE ---------- */
+.gallery-section {
+  max-width: 1100px;
+  margin: 100px auto;
+  padding: 0 20px;
+}
+
+.gallery-section h1 {
+  text-align: center;
+  font-size: 2em;
+  color: #004d4d;
+  margin-bottom: 40px;
+}
+
+.gallery-year {
+  font-size: 1.6em;
+  color: #004d4d;
+  text-align: left;
+  font-weight: 600;
+  margin-bottom: 20px;
+  border-left: 4px solid #00796b;
+  padding-left: 10px;
+}
+
+.gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 25px;
+}
+
+.gallery-item img {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  transition: transform 0.3s ease;
+}
+
+.gallery-item img:hover {
+  transform: scale(1.03);
+}
+
+.gallery-item p {
+  text-align: center;
+  margin-top: 8px;
+  font-size: 0.95em;
+  color: #003333;
+}

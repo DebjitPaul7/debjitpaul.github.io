@@ -238,11 +238,11 @@ body.contact-page .main-header nav ul li a {
 .social-links a img {
   width: 34px;
   height: 34px;
-  filter: brightness(0) saturate(100%) invert(17%) sepia(90%) saturate(600%) hue-rotate(125deg);
-  transition: transform 0.2s ease, filter 0.2s ease;
+  transition: transform 0.2s ease, opacity 0.2s ease;
 }
 
 .social-links a img:hover {
   transform: scale(1.15);
-  filter: brightness(0) saturate(100%) invert(45%) sepia(60%) saturate(350%) hue-rotate(125deg);
+  opacity: 0.8;
 }
+

@@ -228,6 +228,23 @@ body.contact-page .main-header nav ul li a {
 }
 
 /* ---------- SOCIAL LINKS (FULL COLOR ICONS) ---------- */
+
+.about-left {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.profile-pic {
+  width: 220px;
+  height: 220px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 20px; /* space before icons */
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+
 .social-links {
   margin-top: 20px;
   display: flex;

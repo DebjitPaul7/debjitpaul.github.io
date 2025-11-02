@@ -44,7 +44,6 @@ body.home-page .overlay {
   align-items: center;
   color: white;
   text-align: center;
-  animation: overlayFade 10s infinite ease-in-out;
 }
 
 body.home-page .overlay h1 {

@@ -26,6 +26,10 @@ body.home-page .hero {
   100% { background-image: url('images/BackGround_Image.png'); }
 }
 
+.hero {
+  transition: background-image 2s ease-in-out;
+}
+
 /* Overlay text */
 body.home-page .overlay {
   position: absolute;
@@ -221,8 +225,4 @@ body.contact-page .main-header nav ul li a {
 
 .pub-item a:hover {
   text-decoration: underline;
-}
-
-.hero {
-  transition: background-image 2s ease-in-out;
 }

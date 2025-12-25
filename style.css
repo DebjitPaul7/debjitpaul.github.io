@@ -332,3 +332,22 @@ h1, h2 {
   font-family: 'Poppins', sans-serif !important;
   font-weight: 600 !important;
 }
+
+/* ----- FIX RESEARCH PAGE HERO TITLE ----- */
+.research-page .overlay {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  text-align: center;
+  color: white;
+  background-color: rgba(0, 51, 51, 0.55);
+}
+
+.research-page .overlay h1 {
+  font-family: 'Poppins', sans-serif !important;
+  font-size: 2.5em;
+  font-weight: 600 !important;
+  margin: 0;
+  letter-spacing: 2px;
+}

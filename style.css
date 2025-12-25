@@ -30,6 +30,14 @@ body.home-page .hero {
   transition: background-image 2s ease-in-out;
 }
 
+.hero.small {
+  padding-top: 50px;
+}
+
+.hero.small .overlay h1 {
+  margin-top: 20px;
+}
+
 /* Overlay text */
 body.home-page .overlay {
   position: absolute;

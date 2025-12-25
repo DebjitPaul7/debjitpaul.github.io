@@ -359,6 +359,10 @@ h1, h2 {
   text-align: center;
 }
 
+.content {
+  margin-top: 80px; /* pushes all inner content downward */
+}
+
 .contact {
   margin-top: 80px; /* keeps internal spacing nice */
 }

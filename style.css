@@ -359,3 +359,6 @@ h1, h2 {
   text-align: center;
 }
 
+.research h2 {
+  margin-top: 40px; /* pushes the Research heading downward */
+}

@@ -371,7 +371,7 @@ h1, h2 {
 .recognition h2 {
   font-family: 'Poppins', sans-serif;
   font-weight: 600;
-  font-size: 1em; /* choose the size you want */
+  font-size: 1.5em; /* choose the size you want */
   color: #004d4d; /* optional, matches your theme */
   margin-top: 0; /* optional, adjust spacing if needed */
 }

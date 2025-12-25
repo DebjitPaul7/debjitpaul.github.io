@@ -360,9 +360,5 @@ h1, h2 {
 }
 
 .contact {
-  margin-top: 40px; /* keeps internal spacing nice */
-}
-
-main {
-  margin-top: 120px; /* pushes the entire page content down */
+  margin-top: 150px; /* keeps internal spacing nice */
 }

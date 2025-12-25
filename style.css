@@ -358,3 +358,11 @@ h1, h2 {
   margin-top: 40px; /* moves it downward */
   text-align: center;
 }
+
+.contact {
+  margin-top: 40px; /* keeps internal spacing nice */
+}
+
+main {
+  margin-top: 120px; /* pushes the entire page content down */
+}

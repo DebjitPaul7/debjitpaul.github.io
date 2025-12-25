@@ -366,3 +366,12 @@ h1, h2 {
 .contact {
   margin-top: 80px; /* keeps internal spacing nice */
 }
+
+.research h2,
+.recognition h2 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  font-size: 2em; /* choose the size you want */
+  color: #004d4d; /* optional, matches your theme */
+  margin-top: 0; /* optional, adjust spacing if needed */
+}

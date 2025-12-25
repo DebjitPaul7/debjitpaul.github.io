@@ -335,3 +335,23 @@ body.contact-page .main-header nav ul li a {
   box-shadow: 0 6px 14px rgba(0, 0, 0, 0.25);
   cursor: pointer;
 }
+
+/* ----- UNIFIED HEADING FONTS ----- */
+h1, h2 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+}
+
+/* Optional: ensure hero Research title matches */
+.hero.small .overlay h1 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+}
+
+/* Optional: unify Recognition heading style */
+.recognition h2 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  font-size: 2em;
+  color: #004d4d;
+}

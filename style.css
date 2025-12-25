@@ -351,3 +351,11 @@ h1, h2 {
   margin: 0;
   letter-spacing: 2px;
 }
+
+.hero.small h1 {
+  font-family: 'Poppins', sans-serif !important;
+  font-weight: 600 !important;
+  margin-top: 40px; /* moves it downward */
+  text-align: center;
+}
+
